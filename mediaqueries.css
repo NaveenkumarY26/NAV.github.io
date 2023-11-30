@@ -1,0 +1,49 @@
+@media screen and (max-width:1200px){
+    #nav-1{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    } 
+    #whats-new,#contact,.footer{font-size: 1.5rem;}
+    .back-video{
+        width:100vw;
+        height:50vh;
+
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img1 img{
+        width: 25vw;
+        height: 30vh;
+    }
+    .img img{
+        width: 50vw;
+        height: 90vh;
+    }
+    .message-container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1400px){
+    #Event-section,#about{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container img{
+        align-content: center;
+    }
+    .message-container{
+        padding-top: 10vh;
+        text-align: center;
+    }
+}
